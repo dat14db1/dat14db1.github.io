@@ -1,0 +1,32 @@
+.header {
+  width: 99vw;
+  height: 30vh;
+  background-color: #b9c0cc;
+  position: fixed;
+  top: 10px
+}
+
+.rubrik{
+  text-align: center;
+  font-family: 'Aclonica';
+  font-size: 100px;
+}
+
+.listcontainer {
+  width: 15vw;
+  height: 50vh;
+  background-color: #4286f4;
+  position:fixed;
+  top: 32vh;
+}
+
+
+.writingBox {
+  background-color: #dee0e2;
+  position: fixed;
+  width: 80vw;
+
+  top: 32vh;
+  left: 16vw;
+  padding: 10px;
+}

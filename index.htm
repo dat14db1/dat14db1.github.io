@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Muthello</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+  </head>
+  <body>
+    <div class="header" >
+       <h2 class="rubrik"> Muthello </h2>
+     </div>
+
+     <div class="listcontainer" >
+       <ul>
+         <li> Översikt </li>
+         <li> Design </li>
+         <li> Utvärdering </li>
+          <li>Om oss </li>
+       </ul>
+     </div>
+
+     <div class="writingBox" >
+       <h3>Översikt</h3>
+       <p>
+         Vi har valt att implementera othellospelet och tillhörande en chattjänst. I programmet går det att göra allt du kan förvänta dig att du kan göra i othello.
+         Du kan lägga dina spelpjäser för att föra spelet framåt, se spelplanen i ett grafiskt användargränssnitt och även chatta med din motståndare. När spelet är färdigt
+         och en spelare har vunnit, presenteras vinnaren och programmet avslutas. Spelarna kan då välja att starta en ny omgång om de känner att de inte fått nog.
+
+       </p>
+
+       <h3>Design</h3>
+       <p>För att båda spelarna ska kunna se vilka drag som sker, även om de inte sitter i samma rum, måste vi ha en server som de båda spelarna (klienterna)
+         kopplar upp sig emot. Först skapar vi en server där själva spelet körs. Vardera spelare kopplar upp sig mot servern och får upp ett användargränssnitt där
+         man kan se spelplanen. När en spelare gör ett drag, skickas draget till servern via en socket med TCP som underliggande protokoll, och som kollar om det är ett giltigt drag. Om draget är giltigt säger servern till den andra
+         spelaren (klienten) att det är dennes tur och spelet fortsätter tills en spelare vinner.
+       </p>
+
+       <h3>Utvärdering</h3>
+       <p>Vi anser projektet vara lyckat. När vi började med projektet hade vi redan skapat logiken i Othello i en annan kurs (applied AI), så det gjorde att vi kunnde hoppa in direkt på själva nätverksprogrammeringen.
+         Vi hade en klar tanke om hur kommunikationen
+       </p>
+       <h3>Om oss</h3>
+       <p> Vi heter Daniel och Ahmed är två studenter som studerar vårt fjärde år på datateknik. Vi brinner för att skapa saker,
+         bland annat othellospel.
+       </p>
+
+     </div>
+
+
+  </body>
+</html>
