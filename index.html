@@ -25,7 +25,7 @@
        <h3>Design</h3>
        <p>För att båda spelarna ska kunna se vilka drag som sker, även om de inte sitter i samma rum, måste vi ha en server som de båda spelarna (klienterna)
          kopplar upp sig emot. Först skapar vi en server där själva spelet körs. Vardera spelare kopplar upp sig mot servern och får upp ett användargränssnitt där
-         man kan se spelplanen. När en spelare gör ett drag, skickas draget till servern via en socket med TCP som underliggande protokoll, och som kollar om det är ett giltigt drag. Om draget är giltigt säger servern till den andra
+         man kan se spelplanen. När en spelare gör ett drag, skickas draget till servern via en socket. Servern säger till den andra
          spelaren (klienten) att det är dennes tur och spelet fortsätter tills en spelare vinner.
        </p>
 
