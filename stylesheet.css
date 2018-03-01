@@ -23,10 +23,10 @@
 
 .writingBox {
   background-color: #dee0e2;
-  position: fixed;
   width: 80vw;
-
-  top: 32vh;
-  left: 16vw;
-  padding: 10px;
+  padding-top: 35vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: auto;
 }
